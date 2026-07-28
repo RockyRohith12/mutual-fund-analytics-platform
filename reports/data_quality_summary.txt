@@ -1,0 +1,77 @@
+======================================================================
+DATA QUALITY SUMMARY
+======================================================================
+
+FUND_MASTER
+----------------------------------------------------------------------
+Rows              : 40
+Columns           : 15
+Duplicate Rows    : 0
+Missing Values    : 0
+
+NAV_HISTORY
+----------------------------------------------------------------------
+Rows              : 46000
+Columns           : 3
+Duplicate Rows    : 0
+Missing Values    : 0
+
+AUM_BY_FUND_HOUSE
+----------------------------------------------------------------------
+Rows              : 90
+Columns           : 5
+Duplicate Rows    : 0
+Missing Values    : 0
+
+MONTHLY_SIP_INFLOWS
+----------------------------------------------------------------------
+Rows              : 48
+Columns           : 6
+Duplicate Rows    : 0
+Missing Values    : 12
+
+CATEGORY_INFLOWS
+----------------------------------------------------------------------
+Rows              : 144
+Columns           : 3
+Duplicate Rows    : 0
+Missing Values    : 0
+
+INDUSTRY_FOLIO_COUNT
+----------------------------------------------------------------------
+Rows              : 21
+Columns           : 6
+Duplicate Rows    : 0
+Missing Values    : 0
+
+SCHEME_PERFORMANCE
+----------------------------------------------------------------------
+Rows              : 40
+Columns           : 19
+Duplicate Rows    : 0
+Missing Values    : 0
+
+INVESTOR_TRANSACTIONS
+----------------------------------------------------------------------
+Rows              : 32778
+Columns           : 13
+Duplicate Rows    : 0
+Missing Values    : 0
+
+PORTFOLIO_HOLDINGS
+----------------------------------------------------------------------
+Rows              : 322
+Columns           : 8
+Duplicate Rows    : 0
+Missing Values    : 0
+
+BENCHMARK_INDICES
+----------------------------------------------------------------------
+Rows              : 8050
+Columns           : 3
+Duplicate Rows    : 0
+Missing Values    : 0
+
+======================================================================
+AMFI VALIDATION : PASSED
+======================================================================
