@@ -1,77 +1,147 @@
-======================================================================
-DATA QUALITY SUMMARY
-======================================================================
+================================================================================
+DATA QUALITY SUMMARY REPORT
+================================================================================
 
 FUND_MASTER
-----------------------------------------------------------------------
-Rows              : 40
-Columns           : 15
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 40
+Columns              : 15
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.03
+Empty Dataset        : False
+Duplicate AMFI Codes : 0
+Negative Values      : None
+
+Invalid Dates
+   launch_date : 0
 
 NAV_HISTORY
-----------------------------------------------------------------------
-Rows              : 46000
-Columns           : 3
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 46000
+Columns              : 3
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 3.64
+Empty Dataset        : False
+Duplicate AMFI Codes : 45960
+Negative Values      : None
+
+Invalid Dates
+   date : 27880
 
 AUM_BY_FUND_HOUSE
-----------------------------------------------------------------------
-Rows              : 90
-Columns           : 5
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 90
+Columns              : 5
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.01
+Empty Dataset        : False
+Duplicate AMFI Codes : N/A
+Negative Values      : None
+
+Invalid Dates
+   date : 0
 
 MONTHLY_SIP_INFLOWS
-----------------------------------------------------------------------
-Rows              : 48
-Columns           : 6
-Duplicate Rows    : 0
-Missing Values    : 12
+--------------------------------------------------------------------------------
+Rows                 : 48
+Columns              : 6
+Missing Values       : 12
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.0
+Empty Dataset        : False
+Duplicate AMFI Codes : N/A
+Negative Values      : None
+Invalid Dates        : None
 
 CATEGORY_INFLOWS
-----------------------------------------------------------------------
-Rows              : 144
-Columns           : 3
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 144
+Columns              : 3
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.02
+Empty Dataset        : False
+Duplicate AMFI Codes : N/A
+Negative Values      : None
+Invalid Dates        : None
 
 INDUSTRY_FOLIO_COUNT
-----------------------------------------------------------------------
-Rows              : 21
-Columns           : 6
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 21
+Columns              : 6
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.0
+Empty Dataset        : False
+Duplicate AMFI Codes : N/A
+Negative Values      : None
+Invalid Dates        : None
 
 SCHEME_PERFORMANCE
-----------------------------------------------------------------------
-Rows              : 40
-Columns           : 19
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 40
+Columns              : 19
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.02
+Empty Dataset        : False
+Duplicate AMFI Codes : 0
+
+Negative Values
+   max_drawdown_pct : 40
+Invalid Dates        : None
 
 INVESTOR_TRANSACTIONS
-----------------------------------------------------------------------
-Rows              : 32778
-Columns           : 13
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 32778
+Columns              : 13
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 20.69
+Empty Dataset        : False
+Duplicate AMFI Codes : 32738
+Negative Values      : None
+
+Invalid Dates
+   transaction_date : 19730
 
 PORTFOLIO_HOLDINGS
-----------------------------------------------------------------------
-Rows              : 322
-Columns           : 8
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 322
+Columns              : 8
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 0.09
+Empty Dataset        : False
+Duplicate AMFI Codes : 288
+Negative Values      : None
+
+Invalid Dates
+   portfolio_date : 0
 
 BENCHMARK_INDICES
-----------------------------------------------------------------------
-Rows              : 8050
-Columns           : 3
-Duplicate Rows    : 0
-Missing Values    : 0
+--------------------------------------------------------------------------------
+Rows                 : 8050
+Columns              : 3
+Missing Values       : 0
+Duplicate Rows       : 0
+Memory Usage (MB)    : 1.09
+Empty Dataset        : False
+Duplicate AMFI Codes : N/A
+Negative Values      : None
 
-======================================================================
-AMFI VALIDATION : PASSED
-======================================================================
+Invalid Dates
+   date : 4879
+
+================================================================================
+AMFI VALIDATION
+================================================================================
+Status : PASSED
+All AMFI Codes are present in NAV History.
+
+================================================================================
+END OF REPORT
+================================================================================

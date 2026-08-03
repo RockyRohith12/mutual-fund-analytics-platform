@@ -1,0 +1,79 @@
+============================================================
+FUND_MASTER
+============================================================
+Rows Before           : 40
+Rows After            : 40
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+NAV_HISTORY
+============================================================
+Rows Before           : 46000
+Rows After            : 46000
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+INVESTOR_TRANSACTIONS
+============================================================
+Rows Before           : 32778
+Rows After            : 32778
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+SCHEME_PERFORMANCE
+============================================================
+Rows Before           : 40
+Rows After            : 40
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+AUM_BY_FUND_HOUSE
+============================================================
+Rows Before           : 90
+Rows After            : 90
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+MONTHLY_SIP_INFLOWS
+============================================================
+Rows Before           : 48
+Rows After            : 48
+Duplicates Removed    : 0
+Missing Values        : {'yoy_growth_pct': 12}
+
+============================================================
+CATEGORY_INFLOWS
+============================================================
+Rows Before           : 144
+Rows After            : 144
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+INDUSTRY_FOLIO_COUNT
+============================================================
+Rows Before           : 21
+Rows After            : 21
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+PORTFOLIO_HOLDINGS
+============================================================
+Rows Before           : 322
+Rows After            : 322
+Duplicates Removed    : 0
+Missing Values        : {}
+
+============================================================
+BENCHMARK_INDICES
+============================================================
+Rows Before           : 8050
+Rows After            : 8050
+Duplicates Removed    : 0
+Missing Values        : {}
